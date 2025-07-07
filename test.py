@@ -3,10 +3,8 @@ import numpy as np
 import pandas as pd
 
 
-
-print("Hello World")
-print("I'm testing out the new branch")
-
+name = input("Enter your name: ")
+print(f"Hello {name}!")
 
 
 
