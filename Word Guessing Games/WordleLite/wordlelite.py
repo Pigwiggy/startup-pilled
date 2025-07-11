@@ -52,10 +52,14 @@ while tries_left > 0:
         print(f"Here are the letters you got in the right position: {feedback}")
         print(f"Here are the letters you got right but in the wrong place: {misplaced_letters}")
         tries_left -= 1
-        print(f"You have {tries_left} guesses left")
+        if tries_left == 1:
+             print(f"You have {tries_left} guess left")
+        else:
+            print(f"You have {tries_left} guesses left")
 
 
 print("Game over")
+print(f"The word was {word}")
 
 
     
