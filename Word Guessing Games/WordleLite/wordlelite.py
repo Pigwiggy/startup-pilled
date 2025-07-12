@@ -25,10 +25,10 @@ while tries_left > 0:
 
     # Checks if user input is five letters or contains non-alphabetical letters
     if len(guess) != 5:
-        print("The word needs to be 5 letters: ")
+        print("The word needs to be 5 letters")
         print(f"You have {tries_left} guesses left")
     elif not guess.isalpha():
-        print("Enter alphabetical letters only: ")
+        print("Enter alphabetical letters only")
         print(f"You have {tries_left} guesses left")
     
     # Identifies correct letters, misplaced letters, and incorrect letters from the user's guess
